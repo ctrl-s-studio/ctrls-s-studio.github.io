@@ -6,17 +6,29 @@
 -->
 <html>
 	<head>
-		<title>Landed by HTML5 UP</title>
+		<title>CTRL+S</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	
 	<body class="is-preload landing">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<header id="header">
+					<!-- 팝업뷰 -->
+					<div id="popup">
+						<div id="popmenu">
+							<form action="#" method="post">
+								<input type="text" name="uid" id="uid" placeholder="아이디">
+								<input type="password" name="pwd" id="pwd" placeholder="비밀번호">
+								<input type="submit" name="login" id="loginBtn" value="로그인">
+							</form>
+							<div class="exit" id="exited"><img src="images/reject.png" alt="x" width="25px" height="25px"></div>
+						</div>
+					</div>
 					<h1 id="logo"><a href="index.html">CTRL+S</a></h1>
 					<nav id="nav">
 						<ul>
@@ -39,7 +51,7 @@
 								</ul>
 							</li>
 							<li><a href="elements.html">팀원 소개</a></li>
-							<li><a href="#" class="button primary">로그인</a></li>
+							<li><a href="#" id="popup_login" class="button primary">로그인</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -47,12 +59,14 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
+						<div class="content_img">
 							<header>
 								<h2>CTRL+S</h2>
 								<p>마음 맞는 사람들끼리 모인 게임 프로젝트 개발팀<br />
 								들어오는건 무료지만 나가는건..찡긋 >_0</p>
 							</header>
 							<span class="image"><img src="images/ctrls_logo.png" alt="" /></span>
+						</div>
 					</div>
 					
 					<a href="#one" class="goto-next scrolly">Next</a>
@@ -60,29 +74,28 @@
 
 			<!-- One -->
 				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<span class="image fit main"><img src="images/main_banner2.png" alt="" /></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
 								<div class="col-4 col-12-medium">
 									<header>
-										<h2>Odio faucibus ipsum integer consequat</h2>
-										<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
+										<h2>솔로몬과 72악마, <br>크툴루 신화의 조합</h2>
+										<p>솔로몬과 72악마의 전승과 크툴루 신화를 조합한<br> 신박한 스토리라인</p>
 									</header>
 								</div>
 								<div class="col-4 col-12-medium">
-									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-									augue varius tempus lobortis porttitor accumsan consequat
-									adipiscing lorem dolor.</p>
+									<p>프롤로그</p>
+									<p>평화로운 루테란 왕국의 알테리우스가문에서 일어나는 재앙의 징조, 그리고 알테리우스 가문의
+										숨겨진 혈족과 세계로 흩뿌려진 가문의 보물을 찾아 여행을 떠나게 되는 카이엔의 일대기를 그린
+										하나의 또다른 세계를 탐험해보세요
+									</p>
 								</div>
 								<div class="col-4 col-12-medium">
-									<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
-									adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-									ipsum dolor nullam.</p>
+									<p>
+										총 7부작으로 나뉘어져있는 주인공의 좌충우돌 이야기 그리고 올드원과 솔로몬의 
+										숨겨져있는 진실을 찾아서 함께 여행을 떠나보세요
+									</p>
 								</div>
 							</div>
 						</div>

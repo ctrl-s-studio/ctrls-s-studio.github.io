@@ -238,7 +238,6 @@
 
 				breakpoints.on('<=medium', off);
 				breakpoints.on('>medium', on);
-
 			});
 
 	// Banner.
@@ -246,5 +245,16 @@
 
 		$banner
 			._parallax();
-
+	// Popup
+	$(document).ready(function() {
+		$("#popup_login").click(function(){
+			$("#popup").fadeIn();
+		});
+		// $("#popup").click(function(){
+		// 	$("#popup").fadeOut();
+		// });
+		$("#exited").click(function() {
+			$("#popup").fadeOut();
+		});
+	})
 })(jQuery);

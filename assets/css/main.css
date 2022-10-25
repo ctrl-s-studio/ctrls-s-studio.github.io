@@ -3073,7 +3073,7 @@ input, select, textarea {
 			.spotlight .image.main img {
 				position: relative;
 			}
-
+			
 		.spotlight .content {
 			-moz-transform: translate(0,0);
 			-webkit-transform: translate(0,0);
@@ -3368,6 +3368,93 @@ input, select, textarea {
 	}
 
 /* Header */
+			/* profile layout */
+			.profile{
+				float: left;
+				margin-left: 50px;
+				margin-right: 50px;
+				text-align: center;
+			}
+			.profile_container{
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 300px;
+			}
+			.profile_top {
+				margin: 0 auto;
+			}
+			.profile_middle{
+				margin: 0 auto;
+			}
+			.profile_img{
+				width: 100px;
+				height: 100px;
+				border-radius: 100%;
+			}
+			.profile_array{
+				width: 100%;
+				text-align: center;
+			}
+			/* popup layout */
+			
+			#popup {
+				display: none; /*¼û±â±â*/
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.9);
+				z-index: 1;
+			}
+
+			#popmenu {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%,-50%);
+				width: 300px;
+				height: 200px;
+				text-align: center;
+				background: #fff;
+			}
+
+			#popmenu form {
+				margin: 30px;
+				position: relative;
+			}
+			#popmenu form > input {
+				border-radius: 50px;
+				margin-bottom: 5px;
+				color: #000;
+				background: rgb(211, 211, 211);
+			}
+			#popmenu form > input::placeholder {
+				color: black;
+				opacity: 1;
+			}
+			:-ms-input-placeholder {
+				color: black;
+			}
+			::-ms-input-placeholder {
+				color: black;
+			}
+			
+			.exit{
+				position: absolute;
+				left:0px;
+				bottom: 150px;
+				transform: translate(-50%,0);
+				width: 35px;
+				height: 35px;
+				text-align: center;
+				line-height: 30px;
+				background: #007AAE;
+				cursor: pointer;
+			}
+			.exit > img {
+				line-height: 50px;
+			}
 
 	#page-wrapper {
 		padding-top: 3.5em;

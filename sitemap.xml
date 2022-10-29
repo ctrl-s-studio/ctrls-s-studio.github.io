@@ -5,10 +5,33 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-  <loc>https://ctrls-studio.github.io/index.html</loc>
-  <lastmod>2022-10-25T11:40:23+00:00</lastmod>
+  <loc>https://ctrls-studio.github.io/</loc>
+  <lastmod>2022-10-29T06:05:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://ctrls-studio.github.io/index.html</loc>
+  <lastmod>2022-10-29T06:05:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ctrls-studio.github.io/project-s.detail.html</loc>
+  <lastmod>2022-10-29T06:05:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ctrls-studio.github.io/awardDetails.html</loc>
+  <lastmod>2022-10-29T06:05:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ctrls-studio.github.io/elements.html</loc>
+  <lastmod>2022-10-29T06:05:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 </urlset>
